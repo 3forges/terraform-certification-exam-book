@@ -8,16 +8,16 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			plugins: [starlightThemeRapide()],
-			title: 'My Docs',
+			title: 'The Terraform Certification Book',
 			social: {
-				github: 'https://github.com/withastro/starlight',
+				github: 'https://github.com/3forges/terraform-certification-exam-book',
 			},
 			sidebar: [
 				{
-					label: 'Guides',
+					label: 'Certifications',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', slug: 'guides/example' },
+						{ label: 'Terraform Associate Certification 003', slug: 'certifications/terraform-associate-003' },
 					],
 				},
 				{
