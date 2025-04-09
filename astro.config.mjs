@@ -14,10 +14,12 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Certifications',
+					label: 'Terraform Associate Certification 003',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Terraform Associate Certification 003', slug: 'certifications/terraform-associate-003' },
+						{ label: 'The Associate Learning Path', slug: 'terraform-associate-cert-003/the-associate-learning-path' },
+						{ label: 'The Associate Exam Content List', slug: 'terraform-associate-cert-003/the-associate-exam-content-list' },
+						{ label: 'The Associate Sample Questions', slug: 'terraform-associate-cert-003/the-associate-sample-questions' },
 					],
 				},
 				{
