@@ -47,7 +47,6 @@ Providers enable Terraform to work with virtually any platform or service with a
 
 terraform uses a terraform registry, to find any provider it needs to use.
 
-
 The core Terraform workflow consists of three stages:
 
 * `Write`: You define resources, which may be across multiple cloud providers and services. You write the code in files, mainly `*.tf`, `*.tfvars` files.
@@ -62,4 +61,56 @@ Exercizes to do:
 
 * Use the cloud init provider: <https://registry.terraform.io/providers/hashicorp/cloudinit/latest/docs/resources/config>
 
-### ccc
+### Introduction to Infrastructure as Code with Terraform
+
+References:
+
+* <https://developer.hashicorp.com/terraform/tutorials/aws-get-started/infrastructure-as-code>
+
+The advantages of terraform are:
+
+* Terraform can manage infrastructure on multiple cloud platforms.
+* The human-readable configuration language helps you write infrastructure code quickly.
+* Terraform's state allows you to track resource changes throughout your deployments.
+* You can commit your configurations to version control to safely collaborate on infrastructure.
+
+Terraform's configuration language is declarative, it is based on HCL, the Hashicorp Configuration Language which is opensource:
+
+* <https://github.com/hashicorp/hcl>
+* <https://github.com/hashicorp/hcl-lang>
+
+HCL is used by other HAshicorp products, such as Packer, and Consul.
+
+Terraform providers automatically calculate dependencies between resources to create or destroy them in the correct order.
+
+The typical everyday workflow when working with terraform is:
+
+* **Scope** - Identify the infrastructure for your project.
+* **Author** - Write the configuration for your infrastructure.
+* **Initialize** - Install the plugins Terraform needs to manage the infrastructure.
+* **Plan** - Preview the changes Terraform will make to match your configuration.
+* **Apply** - Make the planned changes.
+
+_**Tracking your infrastructure changes**_
+
+Terraform keeps track of your real infrastructure in a state file, which acts as a source of truth for your environment.
+
+Terraform uses the state file to determine the changes to make to your infrastructure so that it will match your configuration.
+
+_**Collaborate**_
+
+To be able collaborate in a team of several people, when you work with terraform:
+
+* You need to use remote state backends: if you version control the state file in the same git repository, than the terraform configuration files, it is _not_ possible to collaborate.
+* You need to use remote state backends: and that remote backend must support the feature of preventing race conditions (for example using a state locking mechanism, ie, a semaphore mechanism).
+
+The HCP Terraform service:
+
+* offers a terraform backend service offered by the Hashicorp company, which is free up to 5 users (true in April 2025).
+* You can also connect HCP Terraform to version control systems (VCSs) like GitHub, GitLab, and others, allowing it to automatically propose infrastructure changes when you commit configuration changes to VCS. This lets you manage changes to your infrastructure through version control, as you would with application code. (this connection to git services is similar to runatlantis.io)
+
+Exercize:
+
+* build and destroy a Docker container using terraform.
+
+
