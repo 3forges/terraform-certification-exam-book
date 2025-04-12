@@ -1,11 +1,11 @@
 ---
-title: The Associate Exam Content List
+title: The Terraform Associate Exam Content List
 description: Knowledge base for the Terraform Associate Certification 003.
 ---
 
 ## Introduction
 
-In this guide, I condensed all knowledge gathered (March 2025) from the [_"The Associate Exam Content List"_](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-review-003)
+In this guide, I condensed all knowledge gathered (March 2025) from the [_"The Terraform Associate Exam Content List"_](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-review-003)
 
 In this introduction, I want to note that it is fundamental to know:
 

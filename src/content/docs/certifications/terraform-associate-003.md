@@ -8,6 +8,7 @@ description: Knowledge abse for the Terraform Associate Certification 003.
 In this guide, I organized all knowledge gathered to prepare from the following sources  of information (March 2025):
 
 * [_"The Associate Learning Path"_](/terraform-associate-cert-003/the-associate-learning-path/)
+* [_"The Terraform Associate Tutorials"_](/terraform-associate-cert-003/the-associate-tutorials/)
 * [_"The Associate Exam Content List"_](/terraform-associate-cert-003/the-associate-exam-content-list/)
 * [_"The Associate Sample Questions"_](/terraform-associate-cert-003/the-associate-sample-questions/)
 

@@ -4,9 +4,9 @@ description: My Knowledge about state locking
 ---
 
 In this Topic:
+
 * I take a look at what terraform state locking is
 * I implement several setups which realize state locking, and I proves whether or not the realized state locking setup makes it posible to collaborate in a team of several people managing an infrastructure using terraform.
-
 
 ## Using a remote backend with state locking feature, together with runatlantis.io
 

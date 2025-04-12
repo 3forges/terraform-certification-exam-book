@@ -1,11 +1,11 @@
 ---
-title: The Associate Learning Path
+title: The Terraform Associate Learning Path
 description: List of concepts to understand for the Terraform Associate Certification 003.
 ---
 
 ## Introduction
 
-In this guide, I condensed all knowledge gathered (March 2025) from the [_"The Associate Learning Path"_](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003)
+In this guide, I condensed all knowledge gathered (March 2025) from the [_"The Terraform Associate Learning Path"_](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003)
 
 In this introduction, I want to note that it is fundamental to know:
 

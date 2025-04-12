@@ -1,4 +1,9 @@
-# How to manage different environments with terraform
+---
+title: Managing Environments
+description: About managing environments with terraform
+---
+
+## How to manage different environments with terraform
 
 Here I will look at the concept of workspaces
 

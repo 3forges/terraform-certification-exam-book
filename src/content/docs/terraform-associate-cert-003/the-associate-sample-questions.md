@@ -1,11 +1,11 @@
 ---
-title: The Associate Sample Questions
+title: The Terraform Associate Sample Questions
 description: Sample Question for the Terraform Associate Certification 003 (with tests).
 ---
 
 ## Introduction
 
-In this guide, I condensed all knowledge gathered (March 2025) from the [_"The Associate Sample Questions"_](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-questions)
+In this guide, I condensed all knowledge gathered (March 2025) from the [_"The Terraform Associate Sample Questions"_](https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-questions)
 
 In this introduction, I want to note that it is fundamental to know:
 
