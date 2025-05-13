@@ -17,6 +17,8 @@ In this introduction, I want to note that it is fundamental to know:
 
 > On August 10th, 2023, HashiCorp made the announcement of shifting the license for all its products from Mozilla Public License (MPL) to the Business Source License (BSL).
 
+## Learn about Infrastructure As Code
+
 ### Infrastructure as Code introduction video
 
 References:
@@ -33,7 +35,7 @@ I keep from that part, that:
   * version control that code
   * An is a paradigm of Infrastructure management,  opposed to the more ancient paradigm which consist in using a web ui provision infrasturcture by clicking buttons and or opening tickets.
 
-### Introdcution to IaC documentation
+### Introduction to IaC documentation
 
 References:
 
@@ -113,4 +115,37 @@ Exercize:
 
 * build and destroy a Docker container using terraform.
 
+### Infrastructure as Code in a Private or Public Cloud blog post
 
+A blog post to read: https://www.hashicorp.com/blog/infrastructure-as-code-in-a-private-or-public-cloud/?product_intent=terraform
+
+It gives what are the benefits of infrastruture as code:
+
+* IaC and the Infrastructure Lifecycle:
+  * **_Day 0_** code provisions and configures your initial infrastructure.
+  * **_Day 1_** refers to OS and application configurations you apply after you’ve initially built your infrastructure.
+  * IaC allows easy and quick change on infrastructure because it is possible to use a common language to provision one infrastructure spread over multiple cloud providers (AWS, GCP Azure, etc)
+* **IaC Makes Infrastructure More Reliable**
+* **IaC Makes Infrastructure More Manageable**
+* **IaC Makes Sense**: because infrastructure lifecycle management is hard, and bad decisions can lead to significant losses, the benefits of IaC make IaC adoption a deision that make sense.
+
+And the link to one interesting tutorial:
+
+* <https://learn.hashicorp.com/tutorials/terraform/multicloud-kubernetes#deploy-an-application>
+
+### Terraform use cases documentation
+
+Ref.: https://developer.hashicorp.com/terraform/intro/v1.1.x/use-cases
+
+* Multi-Cloud Deployment, eg:
+  * https://developer.hashicorp.com/terraform/tutorials/networking/multicloud-kubernetes
+* Application Infrastructure Deployment, Scaling, and Monitoring Tools, eg:
+  * <https://developer.hashicorp.com/terraform/tutorials/applications/datadog-provider>
+  * <https://developer.hashicorp.com/terraform/tutorials/aws/blue-green-canary-tests-deployments>
+* Self-Service infrastructure:
+  * Try the Use Modules from the Registry tutorial to get started using public modules in your Terraform configuration. Try the Build and Use a Local Module tutorial on HashiCorp Learn to create a module to manage AWS S3 buckets.
+  * Follow these ServiceNow Service Catalog Integration Setup Instructions to connect ServiceNow to Terraform Cloud.
+
+## Review Terraform fundamentals
+
+Ref.: <https://developer.hashicorp.com/terraform/tutorials/certification-003/associate-study-003#review-terraform-fundamentals>
